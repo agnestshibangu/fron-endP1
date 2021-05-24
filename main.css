@@ -17,8 +17,7 @@ body {
 
 #container_big-img {
   width: 100vw;
-  height: 100vh;
-  margin-bottom: 300px;
+  height: 200vh;
 }
 
 .main-container {
@@ -58,7 +57,7 @@ body::-webkit-scrollbar-thumb {
 
 #navbar {
   width: 100%;
-  height: 100px;
+  height: 150px;
   margin-top: 0;
   background-color: white;
   display: -webkit-box;
@@ -71,7 +70,8 @@ body::-webkit-scrollbar-thumb {
           align-items: center;
   z-index: 50;
   position: fixed;
-  margin-top: 300px;
+  -webkit-transition: height 1s;
+  transition: height 1s;
 }
 
 .bg-pink {
@@ -421,7 +421,7 @@ img {
           transform: translateY(12px);
 }
 
-.galerie {
+#galerie {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -429,6 +429,9 @@ img {
       flex-wrap: wrap;
   width: 106vw;
   background-color: white;
+  padding-top: 23vh;
+  -webkit-transition: paddingTop ease 1s;
+  transition: paddingTop ease 1s;
 }
 
 footer {
