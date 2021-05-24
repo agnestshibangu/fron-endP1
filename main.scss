@@ -51,10 +51,87 @@ a {
     text-decoration: none;
 }
 
-#cross:hover {
-    text-decoration: line-through;
+///////// sandwich ////////////////
+
+.projects-cont {
+    display: flex;
+
 }
 
+.dashes {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-right: 10px;
+    flex-direction: column;
+    transition: transform 1s ease;
+}
+
+
+
+.dashes-cont {
+    width: 40px;
+    height: 20px;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+}
+
+.projects-cont:hover .dashes {
+    transform: translateY(-10px);
+    .dashe1 {
+        transform: translateY(-3px);
+    }
+}
+
+
+
+
+
+.dash {
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    margin-top: 4px;
+}
+
+
+
+////////// name accross ////////////
+
+
+.accross-line {
+    width: 195px;
+    height: 1px;
+    background-color: black;
+    right: 197px;
+    top: 49%;
+    position: absolute;
+    transition: 1s ease;
+   
+}
+
+
+#cross {
+    position: relative;
+}
+
+.block-name:hover .accross-line {
+   right: 0px;
+}
+
+
+
+.block-name {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+//////// search transition //////////@at-root
 .search {
     display: flex;
     align-items: center;
