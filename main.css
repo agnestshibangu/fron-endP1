@@ -115,15 +115,33 @@ a {
   transition: transform 1s, -webkit-transform 1s;
 }
 
-.nav__link:hover {
-  text-decoration: line-through;
-}
-
 .nav__open .nav__links {
   -webkit-transform: translateX(0);
           transform: translateX(0);
   -webkit-box-shadow: 0 0 15px rgba(117, 73, 73, 0.527);
           box-shadow: 0 0 15px rgba(117, 73, 73, 0.527);
+}
+
+#all {
+  position: fixed;
+  top: 0;
+  left: auto;
+  right: 0;
+  background-color: white;
+  z-index: 2;
+  height: 100vh;
+  width: 250px;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.nav__open #all {
+  -webkit-transform: translateX(250px);
+          transform: translateX(250px);
 }
 
 #projects-cont {
@@ -132,6 +150,7 @@ a {
   display: flex;
   border: none;
   background-color: white;
+  outline: none;
 }
 
 #projects-cont:hover {
