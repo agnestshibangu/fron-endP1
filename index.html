@@ -13,6 +13,8 @@
     <title>a Kobayashi inspired website</title>
 
     <script src="app.js" > 
+   
+
     </script>
 
     
@@ -34,10 +36,8 @@
         </div> 
 
         <div id="navbar">
-
-            
                 <!-- toggle-btn -->
-                <div class="projects-cont" onclick="toggleSiderbar(this)" >
+                <button id="projects-cont" class="toggle-btn" onclick="toggleSidebar(this)" type="button">
                     <div class="dashes-cont">
                         <div class="dashes">
                             <span class="dash dash1"></span>
@@ -47,7 +47,7 @@
                         </div>
                     </div>
                     projects
-                </div>
+                </button>
             
 
             <div id="side-bar"></div>
@@ -64,10 +64,23 @@
                     <i class="fas fa-search fa-search2"></i> 
                 </div>
             all</a>
-
-        
-            
         </div>
+
+        <nav id="nav">
+            <div class="nav__links">
+                <div class="links">
+                    <div class="nav__link"><div class="line-through"></div><a href="#">PROJECTS</a></div>
+                    <div class="nav__link"><a href="#">NEWS</a></div>
+                    <div class="nav__link"><a href="#">PROFILE</a></div>
+                    <div class="nav__link"><a href="#">PRESS</a></div>
+                    <div class="nav__link"><a href="#">CONTACT</a></div>
+                    <div class="nav__link"><a href="#">FACEBOOK</a></div>
+                    <div class="nav__link"><a href="#">INSTAGRAM</a></div>
+                </div>
+
+            </div>
+            <div class="nav__overlay"></div>
+        </nav>
 
         <div class="main-container">
 
@@ -76,6 +89,102 @@
                 <div id="galerie">
                 
                     <div class="item"><img class="image" src="public/img/img1.jpg" alt="">
+                   
+                        <div class="overlay">
+                            <div class="card-text">
+                                <h2>CONCEPT MODEL</h2>
+                                <div class="bar"></div>
+                                <p class="description">IMPLEMENTS</p>
+                            </div>
+                        </div> 
+                       
+                    </div>
+                    
+                    <div class="item"><img class="image" src="public/img/img2.jpg" alt="">
+                     
+                        <div class="overlay">
+                            <div class="card-text">
+                                <h2>CONCEPT MODEL</h2>
+                                <div class="bar"></div>
+                                <p class="description">IMPLEMENTS</p>
+                            </div>
+                        </div> 
+                        
+                    </div>
+                    
+                    <div class="item"><img class="image" src="public/img/img3.jpg" alt="">
+                       
+                        <div class="overlay">
+                            <div class="card-text">
+                                <h2>CONCEPT MODEL</h2>
+                                <div class="bar"></div>
+                                <p class="description">IMPLEMENTS</p>
+                            </div>
+                        </div> 
+                    
+                    </div>
+                    
+                    <div class="item"><img class="image" src="public/img/img4.jpg" alt="">
+                      
+                        <div class="overlay">
+                            <div class="card-text">
+                                <h2>CONCEPT MODEL</h2>
+                                <div class="bar"></div>
+                                <p class="description">IMPLEMENTS</p>
+                            </div>
+                        </div> 
+                       
+                    </div>
+
+
+                    <div class="item"><img class="image" src="public/img/img5.jpg" alt="">
+                        
+                        <div class="overlay">
+                            <div class="card-text">
+                                <h2>CONCEPT MODEL</h2>
+                                <div class="bar"></div>
+                                <p class="description">IMPLEMENTS</p>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    
+                    <div class="item"><img class="image" src="public/img/img6.jpg" alt="">
+                        
+                        <div class="overlay">
+                            <div class="card-text">
+                                <h2>CONCEPT MODEL</h2>
+                                <div class="bar"></div>
+                                <p class="description">IMPLEMENTS</p>
+                            </div>
+                        </div> 
+                    </div>
+                    
+                    <div class="item"><img class="image" src="public/img/img7.jpg" alt="">
+                        
+                        <div class="overlay">
+                            <div class="card-text">
+                                <h2>CONCEPT MODEL</h2>
+                                <div class="bar"></div>
+                                <p class="description">IMPLEMENTS</p>
+                            </div>
+                        </div> 
+                       
+                    </div>
+                    
+                    <div class="item"><img class="image" src="public/img/img8.jpg" alt="">
+                    
+                        <div class="overlay">
+                            <div class="card-text">
+                                <h2>CONCEPT MODEL</h2>
+                                <div class="bar"></div>
+                                <p class="description">IMPLEMENTS</p>
+                            </div>
+                        </div> 
+                     
+                    </div>
+                    
+                    <div class="item"><img class="image" src="public/img/img9.jpg" alt="">
                         <a href="item.html">
                         <div class="overlay">
                             <div class="card-text">
@@ -87,89 +196,8 @@
                         </a>
                     </div>
                     
-                    <div class="item"><img class="image" src="public/img/img2.jpg" alt="">
-                        <div class="overlay">
-                            <div class="card-text">
-                                <h2>CONCEPT MODEL</h2>
-                                <div class="bar"></div>
-                                <p class="description">IMPLEMENTS</p>
-                            </div>
-                        </div> 
-                    </div>
-                    
-                    <div class="item"><img class="image" src="public/img/img3.jpg" alt="">
-                        <div class="overlay">
-                            <div class="card-text">
-                                <h2>CONCEPT MODEL</h2>
-                                <div class="bar"></div>
-                                <p class="description">IMPLEMENTS</p>
-                            </div>
-                        </div> 
-                    </div>
-                    
-                    <div class="item"><img class="image" src="public/img/img4.jpg" alt="">
-                        <div class="overlay">
-                            <div class="card-text">
-                                <h2>CONCEPT MODEL</h2>
-                                <div class="bar"></div>
-                                <p class="description">IMPLEMENTS</p>
-                            </div>
-                        </div> 
-                    </div>
-
-
-                    <div class="item"><img class="image" src="public/img/img5.jpg" alt="">
-                        <div class="overlay">
-                            <div class="card-text">
-                                <h2>CONCEPT MODEL</h2>
-                                <div class="bar"></div>
-                                <p class="description">IMPLEMENTS</p>
-                            </div>
-                        </div> 
-                    </div>
-                    
-                    <div class="item"><img class="image" src="public/img/img6.jpg" alt="">
-                        <div class="overlay">
-                            <div class="card-text">
-                                <h2>CONCEPT MODEL</h2>
-                                <div class="bar"></div>
-                                <p class="description">IMPLEMENTS</p>
-                            </div>
-                        </div> 
-                    </div>
-                    
-                    <div class="item"><img class="image" src="public/img/img7.jpg" alt="">
-                        <div class="overlay">
-                            <div class="card-text">
-                                <h2>CONCEPT MODEL</h2>
-                                <div class="bar"></div>
-                                <p class="description">IMPLEMENTS</p>
-                            </div>
-                        </div> 
-                    </div>
-                    
-                    <div class="item"><img class="image" src="public/img/img8.jpg" alt="">
-                        <div class="overlay">
-                            <div class="card-text">
-                                <h2>CONCEPT MODEL</h2>
-                                <div class="bar"></div>
-                                <p class="description">IMPLEMENTS</p>
-                            </div>
-                        </div> 
-                    </div>
-                    
-
-                    <div class="item"><img class="image" src="public/img/img9.jpg" alt="">
-                        <div class="overlay">
-                            <div class="card-text">
-                                <h2>CONCEPT MODEL</h2>
-                                <div class="bar"></div>
-                                <p class="description">IMPLEMENTS</p>
-                            </div>
-                        </div> 
-                    </div>
-                    
                     <div class="item"><img class="image" src="public/img/img10.jpg" alt="">
+                        <a href="item.html">
                         <div class="overlay">
                             <div class="card-text">
                                 <h2>CONCEPT MODEL</h2>
@@ -177,19 +205,24 @@
                                 <p class="description">IMPLEMENTS</p>
                             </div>
                         </div> 
+                        </a>
                     </div>
-                    
+
+
                     <div class="item"><img class="image" src="public/img/img11.jpg" alt="">
+                        <a href="item.html">
                         <div class="overlay">
                             <div class="card-text">
                                 <h2>CONCEPT MODEL</h2>
                                 <div class="bar"></div>
                                 <p class="description">IMPLEMENTS</p>
                             </div>
-                        </div> 
+                        </div>
+                        </a>
                     </div>
                     
                     <div class="item"><img class="image" src="public/img/img12.jpg" alt="">
+                        <a href="item.html">
                         <div class="overlay">
                             <div class="card-text">
                                 <h2>CONCEPT MODEL</h2>
@@ -198,8 +231,10 @@
                             </div>
                         </div> 
                     </div>
+                    
 
                 </div>
+
         </div>
 
         <footer>

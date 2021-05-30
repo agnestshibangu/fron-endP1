@@ -4,13 +4,13 @@ window.addEventListener("scroll", function() {
 
 
     if(window.pageYOffset > 10) {
-        mainNav.classList.add("bg-pink");
+        // mainNav.classList.add("bg-pink");
         mainNav.style.height = "75px";
         bigImg.style.height = "0px";
         
         console.log('hi');
     } else if(this.window.pageYOffset < 5) {
-        mainNav.classList.remove("bg-pink");
+        // mainNav.classList.remove("bg-pink");
         mainNav.style.height = "100px";
         bigImg.style.height = "100vh";
 
@@ -20,5 +20,5 @@ window.addEventListener("scroll", function() {
 /////////////////////////
 
 function toggleSidebar(ref){
-    document.getElementById("sidebar").classList.toggle('active');
-}
+    document.getElementById("nav").classList.toggle('nav__open');
+  }
