@@ -23,11 +23,11 @@ window.addEventListener("scroll", function() {
 
 /////////////////////////
 
-function toggleSidebar(ref){
-    document.getElementById("nav").classList.toggle('nav__open');
+ function toggleSidebar(ref){
+     document.getElementById("nav").classList.toggle('nav__open');
   }
 
-  function toggleSidebar(ref){
-    document.getElementById("all").classList.toggle('nav__open');
-  }
 
+   function toggleSidebar2(ref) {
+      document.getElementById("all").classList.toggle('nav__open');
+   }

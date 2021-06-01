@@ -123,11 +123,6 @@ a {
    
 }
 
-.nav__link:hover{
-    
-}
-
-
 
 .nav__open .nav__links {
      transform: translateX(0);
@@ -137,7 +132,7 @@ a {
 
 ////////////// side bar right ////////////
 
-#all {
+.all__links {
     position: fixed;
     top: 0; 
     left: auto; 
@@ -146,15 +141,15 @@ a {
     z-index: 2;
     height: 100vh;
     width: 250px;
-    transform: translateX(0); 
+    transform: translateX(250px); 
     transition: transform 1s;
 
 }
 
 
- .nav__open #all {
-     transform: translateX(250px);
- }
+  .nav__open .all__links {
+      transform: translateX(0);
+  }
 
 ///////// sandwich ////////////////
 
@@ -285,6 +280,13 @@ a {
     align-items: center;
     flex-direction: column;
     overflow: hidden;
+}
+
+#all-cont {
+    display: flex;
+    border: none;
+    background-color: white;
+    outline: none;
 }
 
 ///////////////////////

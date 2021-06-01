@@ -60,14 +60,19 @@
                 </a>
             </div>
             
-            <a class="search" href="index.html">
-                <div class="search-container">
-                    <i class="fas fa-search fa-search1"></i>    
-                    <i class="fas fa-search fa-search2"></i> 
-                </div>
-            all</a>
-        </div>
-
+            <button id="all-cont" class="toggle-btn" onclick="toggleSidebar2(this)" type="button">
+                <a class="search">
+                    <div class="search-container">
+                        <i class="fas fa-search fa-search1"></i>    
+                        <i class="fas fa-search fa-search2"></i> 
+                    </div>
+                    all
+                    </div>
+               </a>
+            </button>
+                
+            
+            
         <nav id="nav">
             <div class="nav__links">
                 <div class="links">
@@ -84,7 +89,10 @@
             <div class="nav__overlay"></div>
         </nav>
 
-        <nav id="all" class="toggle-btn2 nav__open" onclick="toggleSidebar(this)" type="button">
+        <nav id="all">
+            <div class="all__links ">
+
+            </div>
             
         </nav>
 
